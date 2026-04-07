@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: cornflowerblue;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container {
+    background-color: whitesmoke;
+    padding: 100px;
+    border-radius: 2rem;
+    box-shadow: inset 0 0 10px 1px black;
+}
+
+.content-container h2 {
+    font-size: 40px;
+    margin: 25px auto;
+    text-align: center;
+    text-shadow: 0 2.5px 5px #333;
+}
+
+table {
+    margin-top: 40px;
+    width: 100%;
+    color: #333;
+    border-collapse: collapse;
+}
+
+table th,td {
+    padding: 30px;
+    border: 1px solid dimgrey;
+}
+
+table th {
+    color: #333;
+    background-color: whitesmoke;
+}
+
+a {
+    margin: 10px;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: .5rem;
+    border: solid 1px;
+
+    transition: .25s ease;
+}
+
+#delete {
+    color: orangered;
+    background-color: whitesmoke;
+    border-color: orangered;
+}
+
+#edit {
+    color: green;
+    background-color: whitesmoke;
+    border-color: green;
+}
+
+#delete:hover {
+    color: whitesmoke; 
+    background-color: orangered;
+}
+
+#edit:hover {
+    color: whitesmoke; 
+    background-color: green;
+}
+
+form {
+    display: flex;
+    place-content: center;
+    margin: 50px 10px;
+}
+
+form #content {
+    background-color: whitesmoke;
+    margin-right: 40px;
+    padding: 10px;
+    border: solid 1px cornflowerblue;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+form #btn_add {
+    padding: 5px;
+    color: cornflowerblue;
+    background-color: whitesmoke;
+    border: solid 1px cornflowerblue;
+    border-radius: 0.5rem;
+    transition: .25s ease;
+}
+
+form #btn_add:hover {
+    color: whitesmoke;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
